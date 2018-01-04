@@ -14,7 +14,7 @@ crypto.randomBytes(256, (err, buf) => {
 // exporta o modulo no index temos que importar
 
 module.exports = {
-   uri: 'mongodb://localhost/test',
+   uri: 'mongodb://localhost/SurfShop',
    secret: 'crypto' ,
    db:'Renato-shop'
 

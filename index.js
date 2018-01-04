@@ -1,6 +1,11 @@
 const express = require('express');
 const app = express();
+
+// modulo de acesso ao ficheiro base de dados
+
 const config = require('./config/basedados'); // link para pasta config base de dados
+
+// mongoose npm install mongoose
 const mongoose = require('mongoose');
 const path = require ('path');
 mongoose.Promise = global.Promise;
